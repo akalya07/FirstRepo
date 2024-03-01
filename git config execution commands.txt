@@ -1,0 +1,35 @@
+git config user.name
+
+git config user.email
+
+mkdir Git_Demo
+
+cd Git_Demo
+
+pwd 
+
+mkdir FirstRepo
+
+cd FirstRepo
+
+git init
+
+echo "# Sample git push " >> Readme.md
+
+git Init
+
+git add Readme.md
+
+git add -A
+
+git commit -m "first Commit"
+
+git add .
+
+git branch -M main
+
+git remote add orgin https://github.com/akalya07/FirstRepo.git
+
+git push -u origin main
+
+git pull --rebase origin main
